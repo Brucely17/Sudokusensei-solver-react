@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
+
+/* .wrapper.six{
+    background-color: #222222;
+  } */
+ 
+  .flicker {
+    font-size: 6rem; 
+     font-family: 'Merienda', sans-serif;
+     font-size: 3rem;
+     background: linear-gradient(45deg, white, #43C3C3,white, #2E86AB);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     animation: gradient-animation 5s linear infinite;
+     /* text-shadow: 0 0 8px #FFF, */
+     
+  } 
+    
+  
+ 
+  

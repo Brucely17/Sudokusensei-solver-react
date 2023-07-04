@@ -1,0 +1,257 @@
+/* import magicalImage from 'magical.jpg'; */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+.App-header{
+  
+  display:flex;
+  /* justify-content:center; */
+  align-items:center;
+  min-height:100vh;
+  background:url("./gradient.jpg") no-repeat;
+  background-size:cover;
+  background-position:center;
+
+
+
+
+  
+    flex-direction :row;
+    align-items:center;
+    justify-content:space-between;
+    font-size:calc(10px + 2vmin);
+    color:white;
+    padding-left:20px;
+    padding-right:200px;
+  }
+
+.left-div{
+  overflow:hidden;
+}
+.img-chat{
+  display:flex;
+  flex-direction:row;
+  padding-left:20px;
+}
+.img-chat>h5{
+  color:rgb(255,157,157);
+  
+}
+  .left-div >img{
+    position:sticky;
+    margin-left:40px;
+    height:300px;
+    width:300px;
+    padding-top:5px;
+    padding-bottom:10px;
+    /* margin-bottom:100px; */
+    /* padding-bottom:10px; */
+
+  }
+  .left-div > h4.message {
+    /* padding-bottom:90px; */
+    color:#0ef;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid transparent; /* The typewriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0  auto;
+    /* margin-bottom:90px; Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: typing 3.5s steps(40, end) forwards, blink-caret 3.5s step-end infinite;
+  }
+  .left-div > h3.message {
+    /* padding-bottom:90px; */
+    color:#0ef;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid transparent; /* The typewriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0  auto;
+    margin-bottom:90px; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: typing 3.5s steps(40, end) forwards, blink-caret 3.5s step-end infinite;
+  }
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, 50% { border-color: transparent }
+    51%, to { border-color: transparent }
+  }
+  
+  .cellInput{
+    width:48px;
+    height:48px;
+    font-size:20px;
+    text-align:center;
+    padding:0px;
+    border:1px solid #e6e6fa !important ;
+    /* background-color:aliceblue; */
+    /* filter:blur(10px); */
+    background-color:#E6F7FF;
+   
+  }
+
+
+
+  .cellInput:focus {
+    outline: none;
+  }
+  .cellInput:hover{
+    box-shadow: 0 0 5px #0ef,inset 0 0 10px #0ef;
+  }
+  /* .cellInput:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+  } */
+  /* .cellInput:hover {
+    background-color: #ffeeba;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  } */
+  .cellInput.disabled {
+    background-color: #82cfff; /* Background color for user input */
+  }
+
+.chat{
+  position:relative;
+  display:flex;
+  justify-content:center;
+  width:80%;
+  padding-right:50px;
+  /* margin-top:90px; */
+  margin-left:150px;
+ padding-top:80px;
+}
+  .bot{
+    /* padding-bottom:50px; */
+    margin-bottom:90px;
+  }
+  
+  .holder{
+    display:flex;
+    flex-direction:column;
+  }
+  .sudokugrid{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    
+    
+  }
+  table{
+    border-collapse:collapse;
+    display:flex;
+    flex-direction: flex-end;
+    border:3px solid #0ef;
+    box-shadow: 0 0 15px #0ef,inset 0 0 20px #0ef;
+
+    /* background colour of sudoku input */
+    /* background-color:#639CD9; */
+  
+  
+  }
+  td {
+    padding: 0;
+    border:none;
+    /* box-shadow: 0 0 5px #0ef,inset 0 0 10px #0ef; */
+    /* border: 1px solid #e6e6fa ; */
+    outline:none;
+  }
+  tr{
+    border:none;
+    outline:none !important;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+  }
+  Upload{
+    margin-left:50px;
+  }
+  .buttonContainer{
+    margin-top:20px;
+    margin-right:250px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    padding-bottom:10px;
+  
+  
+  }
+  .solveButton{
+  background-color:white;
+  /* font-weight:bold; */
+  padding:12px 20px;
+  border:none;
+  
+  border-radius:20px;
+  font-size:18px;
+  font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: transparent;
+    transition: background-color 0.3s, border-color 0.3s;
+    border: none;
+  }
+  .solveButton:hover{
+    border:3px solid #0ef;
+    box-shadow: 0 0 15px #0ef,inset 0 0 20px #0ef;
+}
+
+  .checkButton{
+    background-color:white;
+    /* font-weight:bold; */
+    padding:12px 20px;
+    border:none;
+    border-radius:20px;
+    font-size:18px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: transparent;
+    transition: background-color 0.3s, border-color 0.3s;
+    border: none;
+    }
+    .checkButton:hover{
+      border:3px solid #0ef;
+    box-shadow: 0 0 15px #0ef,inset 0 0 20px #0ef;
+  }
+  
+    .resetButton{
+      background-color:white;
+      /* font-weight:bold; */
+      padding:12px 20px;
+      border:none;
+      border-radius:20px;
+      font-size:18px;
+      font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: transparent;
+    transition: background-color 0.3s, border-color 0.3s;
+    border: none;
+      }
+      .resetButton:hover{
+        border:3px solid #0ef;
+    box-shadow: 0 0 15px #0ef,inset 0 0 20px #0ef;
+    }
+    
+  .sudoku-row{
+    border-bottom:2px solid #0ef;
+    /* box-shadow: 0 0 5px #0ef,inset 0 0 10px #0ef; */
+    outline:none;
+  }
+  .sudoku-col{
+    border-right:2px solid #0ef;
+    outline:none;
+  }
+  footer {
+    clear: both;
+  }
+  

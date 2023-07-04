@@ -30,7 +30,7 @@ function App() {
     //   return;
     // }
 
-        fetch('http://purushothamandev.pythonanywhere.com/solve', {
+        fetch('https://purushothamandev.pythonanywhere.com/solve', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

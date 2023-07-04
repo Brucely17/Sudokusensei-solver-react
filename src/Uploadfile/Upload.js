@@ -37,7 +37,7 @@ function Upload() {
       // console.log(image);
       
       axios({
-        url:'http://127.0.0.1:5000/image', 
+        url:'https://purushothamandev.pythonanywhere.com/image', 
         method: 'POST',
         headers: { 'Content-Type': 'multipart/form-data' },
        

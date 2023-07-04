@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Sudokusensei-solver-react/static/css/main.101fb97d.css",
-    "main.js": "/Sudokusensei-solver-react/static/js/main.7e5ed608.js",
+    "main.js": "/Sudokusensei-solver-react/static/js/main.bc3c3be2.js",
     "static/js/787.3e128b3f.chunk.js": "/Sudokusensei-solver-react/static/js/787.3e128b3f.chunk.js",
     "static/media/background.jpg": "/Sudokusensei-solver-react/static/media/background.842ba5c10bbf65b78970.jpg",
     "static/media/gradient.jpg": "/Sudokusensei-solver-react/static/media/gradient.81ef6ac42b03302907e4.jpg",
     "static/media/aibot-bg.png": "/Sudokusensei-solver-react/static/media/aibot-bg.30375f3e5b82c460d267.png",
     "index.html": "/Sudokusensei-solver-react/index.html",
     "main.101fb97d.css.map": "/Sudokusensei-solver-react/static/css/main.101fb97d.css.map",
-    "main.7e5ed608.js.map": "/Sudokusensei-solver-react/static/js/main.7e5ed608.js.map",
+    "main.bc3c3be2.js.map": "/Sudokusensei-solver-react/static/js/main.bc3c3be2.js.map",
     "787.3e128b3f.chunk.js.map": "/Sudokusensei-solver-react/static/js/787.3e128b3f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.101fb97d.css",
-    "static/js/main.7e5ed608.js"
+    "static/js/main.bc3c3be2.js"
   ]
 }
